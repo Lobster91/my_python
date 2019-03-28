@@ -1,0 +1,4 @@
+import re
+line = '123abc45dne'
+r1 = re.match(r'(\d+)[a-z](\d+).*',line,re.I)
+print(r1)
