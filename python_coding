@@ -1,4 +1,4 @@
 import re
-line = '123abc45dne'
-r1 = re.match(r'(\d+)[a-z](\d+).*',line,re.I)
-print(r1)
+line = '123 abc 45 dne'
+r1 = re.match(r'(\d+)',line,re.I)
+print(r1.group())
